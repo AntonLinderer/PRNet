@@ -1,0 +1,9 @@
+# Mapping from the 68-point ibug annotations to 3DMM vertex indices of PRNet models.
+
+[landmark_mappings] # A mapping from input landmarks 68 points of dlib (from 0 to 67) to output landmarks of 3dmm
+dlib (starting from 0) = 3dmm (line numbers of vertices starting from 1) 
+27 = 12423 + 1 (+1 because first line has texture info in saved obj)  # top nose - bridge
+30 = 22265 + 1 (+1 because first line has texture info in saved obj) # nose top (TBD! not to check it again)
+0 = 18478 + 1 (+1 because first line has texture info in saved obj) # left ear
+16 = 17933 + 1 (+1 because first line has texture info in saved obj) # right ear
+
